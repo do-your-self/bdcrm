@@ -1,0 +1,184 @@
+.ml {
+  margin-top: $ml;
+} 
+.mm {
+  margin-top: $mm;
+} 
+.ms {
+  margin-top: $ms;
+}
+input:disabled {
+  background: none;
+}
+.mint-header-title {
+  font-size: $font-large;
+}
+.mint-header {  
+  background-color: $color-primary;  
+}
+.mint-field-other {
+  color: $font-color-title;
+  .fa {
+    font-size: $font-middle;
+  }
+}
+h1.title {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  color: $color-primary;
+  font-size: $font-system;
+  padding: 50px 20px;
+}
+.mint-button:not(.is-disabled):active::after {  
+    opacity: .2 /* .6 */  
+}  
+.mint-button--primary {
+    background-color: $color-primary;  
+}
+.mint-navbar .mint-tab-item.is-selected {  
+  border-bottom: 3px solid $color-primary;  
+  color: $color-primary;  
+}
+.mint-tab-item-label {
+  font-size: $font-middle;
+}
+.mint-tabbar > .mint-tab-item.is-selected {  
+  color: $color-primary;  
+}
+.mint-searchbar {
+  z-index: 2;
+  background-color: $color-primary;
+}
+.mint-popup.search,.mint-popup.search .mint-search {
+  height: 100%
+}
+.mint-searchbar-cancel {  
+  color: $white;  
+}
+.mint-msgbox-confirm:active {  
+  color: $color-primary;  
+}
+.mint-datetime-action {  
+  color: $color-primary;  
+}
+//reset input background
+.mint-cell-wrapper {
+  font-size: $font-middle;
+  background-image: none;
+  border-bottom: 1px solid $line-color;
+}
+.is-textarea .mint-cell-wrapper {
+  align-items: flex-start;
+}
+.mint-cell:last-child {
+  background-image: none;
+}
+.mint-cell-text {
+  color: $label-color;
+  font-size: $font-middle;
+}
+.bg-con {
+  .mint-field.mint-cell {
+    background-color: $opcity;
+  }
+  .mint-field-core {
+    background: $opcity;
+  }
+}
+.mint-popup {
+  width: 100%;
+}
+.card-title {
+  padding: 16px 8px 0;
+  font-size: $font-large;
+  color: $font-color-title;
+}
+.rightbtn {
+  border: 1px solid $white;
+  border-radius: 3px;
+  padding: 2px 4px;
+}
+.btnCon {
+  text-align: center;
+  padding: 20px 0 10px;
+  background: $white;
+  .btn {
+    width: 100px;
+  }
+  .btnR {
+    margin-left: 20px;
+  }
+}
+.btnl {
+  padding: 20px 10px;
+}
+.btnm {
+  padding: 0 50px;
+  margin-top: 50px;
+}
+.mint-button {
+  height: 40px;
+  border-radius: 2px;
+}
+.mint-button-text {
+  font-size: $font-btn;
+}
+.pull {
+  margin: 10px 0;
+  .mint-cell {
+    min-height: 30px;
+  }
+}
+.mint-cell-allow-right::after {
+  width: 8px;
+  height: 8px;
+}
+.captcha {
+  display: inline-block;
+  width: 100px;
+  height: 30px;
+  line-height: 30px;
+  background: $color-primary;
+  text-align: center;
+  color: $font-color-primary;
+  border-radius: 2px;
+}
+.mint-spinner-fading-circle {
+  margin: 10px auto 0;
+}
+.filterCon {
+  position: relative;
+  font-size: $font-middle;
+  color: $color-primary;
+  display: flex;
+  background:#fff;
+  padding: 8px;
+  text-align: center;
+  .item {
+    position: relative;
+    flex: 1;
+    select {
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      left: 0;
+      opacity: 0;
+    }
+  }
+}
+
+.mint-search-list-warp {
+  background: $bg-primary;
+}
+.datePicker {
+  border-bottom: solid 1px #eaeaea;
+  z-index: 99;
+  background: #fff;
+  text-align: center;
+  height: 35px;
+  line-height: 35px;
+  opacity: 01;
+  position: absolute;
+  top: 41px;
+  width: 100%;
+}

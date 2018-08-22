@@ -1,0 +1,8 @@
+export const LOGIN = 'LOGIN'
+export const LOGOUT = 'LOGOUT'
+export const SELECTED = 'SELECTED'
+export const BASEINFO = 'BASEINFO'
+export const FILTER = 'FILTER'
+export const USER = 'USER'
+export const VERSIONID = 'VERSIONID'
+export const BACKPATH = 'BACKPATH'
